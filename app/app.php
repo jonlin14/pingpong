@@ -14,7 +14,7 @@
 
     $app->post("/create_ping_pong", function() use ($app) {
         $pingObject = new PingPong($_POST['limit']);
-        return $app['twig']->render('create_ping_pong.twig', array('pingObject' => $pingObject->returnInput()));
+        return $app['twig']->render('create_ping_pong.twig', $pingObject->returnInput($_POST['limit']));
     });
     $app['debug']=true;
     return $app;

@@ -3,6 +3,10 @@
         <title>Hello</title>
     </head>
     <body>
-        <p>{% foreach </p>
+        <ul>
+            {% for element in pingObject %}
+                <li>{{ echo element }}</li>
+            {% endfor %}
+        </ul>
     </body>
 </html>

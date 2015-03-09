@@ -19,15 +19,9 @@
                     array_push($Conor, $Jonathon);
                     }
                 $Jonathon = $Jonathon-1;
-            }
-            foreach ($Conor as $Zeke)
-            {
-                return $Conor[$Zeke];
-            }
-
-
-
+            return $Conor;
         }
     }
+}
 
     ?>
