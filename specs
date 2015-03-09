@@ -1,0 +1,7 @@
+1. Render a webpage
+2. Attach an input box and button to webpage
+3. Display entered number
+4. Display all integers less than and including the entered number.
+5. If integer is divisible by 3, insert ping instead of the number.
+6. If integer is divible by 5, insert pong instead of the number.
+7. Before 5. and 6., check if integer is divisible by both 3 and 5, insert ping pong.
